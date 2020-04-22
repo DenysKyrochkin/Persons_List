@@ -1,0 +1,502 @@
+[
+  {
+    "Name": "Victoria",
+    "Surname": "Mosiichuk",
+    "Email": "Mosiichuk43@znu.edu.ua",
+    "Birthday": "1988-04-19T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Aries",
+    "ChineseSign": "Dragon",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Polina",
+    "Surname": "Katrichenko",
+    "Email": "Katrichenko66@lnu.edu.ua",
+    "Birthday": "2003-09-06T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Virgo",
+    "ChineseSign": "Sheep",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Kolya",
+    "Surname": "Didula",
+    "Email": "Didula10@ukma.edu.ua",
+    "Birthday": "2009-04-26T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Taurus",
+    "ChineseSign": "Ox",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Anastasia",
+    "Surname": "Avrammenko",
+    "Email": "Avrammenko58@znu.edu.ua",
+    "Birthday": "1998-11-28T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Sagittarius",
+    "ChineseSign": "Tiger",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Ihor",
+    "Surname": "Pidmohylenko",
+    "Email": "Pidmohylenko54@znu.edu.ua",
+    "Birthday": "1994-11-07T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Scorpio",
+    "ChineseSign": "Dog",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Oleksander",
+    "Surname": "Didula",
+    "Email": "Didula46@kpi.edu.ua",
+    "Birthday": "1985-09-04T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Virgo",
+    "ChineseSign": "Ox",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Oleksander",
+    "Surname": "Vasylko",
+    "Email": "Vasylko99@znu.edu.ua",
+    "Birthday": "2002-06-28T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Cancer",
+    "ChineseSign": "Horse",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Ihor",
+    "Surname": "Pidmohylenko",
+    "Email": "Pidmohylenko27@kpi.edu.ua",
+    "Birthday": "1999-03-26T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Aries",
+    "ChineseSign": "Rabbit",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Lubomyr",
+    "Surname": "Mosiichuk",
+    "Email": "Mosiichuk61@lnu.edu.ua",
+    "Birthday": "2018-04-27T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Taurus",
+    "ChineseSign": "Dog",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Anton",
+    "Surname": "Kvych",
+    "Email": "Kvych43@znu.edu.ua",
+    "Birthday": "1998-09-25T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Libra",
+    "ChineseSign": "Tiger",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Myhailo",
+    "Surname": "Katrichenko",
+    "Email": "Katrichenko94@znu.edu.ua",
+    "Birthday": "1993-11-23T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Sagittarius",
+    "ChineseSign": "Rooster",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Polina",
+    "Surname": "Mosiichuk",
+    "Email": "Mosiichuk30@kpi.edu.ua",
+    "Birthday": "1980-01-01T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Capricorn",
+    "ChineseSign": "Monkey",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Aglaya",
+    "Surname": "Kozak",
+    "Email": "Kozak6@ucu.edu.ua",
+    "Birthday": "2013-07-02T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Cancer",
+    "ChineseSign": "Snake",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Ihor",
+    "Surname": "Tar",
+    "Email": "Tar21@znu.edu.ua",
+    "Birthday": "1990-09-19T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Virgo",
+    "ChineseSign": "Horse",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Anton",
+    "Surname": "Stecko",
+    "Email": "Stecko67@ukma.edu.ua",
+    "Birthday": "1990-10-17T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Libra",
+    "ChineseSign": "Horse",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Vladyslav",
+    "Surname": "Kvych",
+    "Email": "Kvych71@znu.edu.ua",
+    "Birthday": "1982-02-17T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Aquarius",
+    "ChineseSign": "Dog",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Vladyslav",
+    "Surname": "Kvych",
+    "Email": "Kvych95@lnu.edu.ua",
+    "Birthday": "2010-11-07T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Scorpio",
+    "ChineseSign": "Tiger",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Katerhina",
+    "Surname": "Mosiichuk",
+    "Email": "Mosiichuk97@kpi.edu.ua",
+    "Birthday": "2017-02-09T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Aquarius",
+    "ChineseSign": "Rooster",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Myroslava",
+    "Surname": "Avrammenko",
+    "Email": "Avrammenko60@znu.edu.ua",
+    "Birthday": "1989-07-09T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Cancer",
+    "ChineseSign": "Snake",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Lubomyr",
+    "Surname": "Pidmohylenko",
+    "Email": "Pidmohylenko31@lnu.edu.ua",
+    "Birthday": "1988-05-07T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Taurus",
+    "ChineseSign": "Dragon",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Oleksander",
+    "Surname": "Drozdenko",
+    "Email": "Drozdenko86@ucu.edu.ua",
+    "Birthday": "1987-03-03T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Pisces",
+    "ChineseSign": "Rabbit",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Oleksander",
+    "Surname": "Kvych",
+    "Email": "Kvych64@ukma.edu.ua",
+    "Birthday": "2015-10-23T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Scorpio",
+    "ChineseSign": "Sheep",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Vladyslav",
+    "Surname": "Pavlenko",
+    "Email": "Pavlenko89@lnu.edu.ua",
+    "Birthday": "2017-07-07T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Cancer",
+    "ChineseSign": "Rooster",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Kolya",
+    "Surname": "Pidmohylenko",
+    "Email": "Pidmohylenko22@znu.edu.ua",
+    "Birthday": "1997-03-20T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Pisces",
+    "ChineseSign": "Ox",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Dmytro",
+    "Surname": "Vasylko",
+    "Email": "Vasylko46@ucu.edu.ua",
+    "Birthday": "2018-07-05T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Cancer",
+    "ChineseSign": "Dog",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Kolya",
+    "Surname": "Didula",
+    "Email": "Didula4@kpi.edu.ua",
+    "Birthday": "2006-04-08T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Aries",
+    "ChineseSign": "Dog",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Julia",
+    "Surname": "Babych",
+    "Email": "Babych85@kpi.edu.ua",
+    "Birthday": "2000-02-11T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Aquarius",
+    "ChineseSign": "Dragon",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Anastasia",
+    "Surname": "Tar",
+    "Email": "Tar37@kpi.edu.ua",
+    "Birthday": "2017-05-11T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Taurus",
+    "ChineseSign": "Rooster",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Dmytro",
+    "Surname": "Avrammenko",
+    "Email": "Avrammenko13@znu.edu.ua",
+    "Birthday": "1980-07-12T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Cancer",
+    "ChineseSign": "Monkey",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Victoria",
+    "Surname": "Avrammenko",
+    "Email": "Avrammenko91@znu.edu.ua",
+    "Birthday": "1980-09-23T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Libra",
+    "ChineseSign": "Monkey",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Vladyslav",
+    "Surname": "Katrichenko",
+    "Email": "Katrichenko48@kpi.edu.ua",
+    "Birthday": "1983-04-20T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Taurus",
+    "ChineseSign": "Pig",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Victoria",
+    "Surname": "Antonovych",
+    "Email": "Antonovych7@ucu.edu.ua",
+    "Birthday": "1999-09-21T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Virgo",
+    "ChineseSign": "Rabbit",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Myroslava",
+    "Surname": "Tar",
+    "Email": "Tar28@ucu.edu.ua",
+    "Birthday": "2010-01-19T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Capricorn",
+    "ChineseSign": "Tiger",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Anastasia",
+    "Surname": "Katrichenko",
+    "Email": "Katrichenko92@znu.edu.ua",
+    "Birthday": "2008-03-16T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Pisces",
+    "ChineseSign": "Rat",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Aglaya",
+    "Surname": "Stecko",
+    "Email": "Stecko76@lnu.edu.ua",
+    "Birthday": "2012-06-21T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Cancer",
+    "ChineseSign": "Dragon",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Anastasia",
+    "Surname": "Kvych",
+    "Email": "Kvych7@lnu.edu.ua",
+    "Birthday": "1981-08-02T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Leo",
+    "ChineseSign": "Rooster",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Myroslava",
+    "Surname": "Kozak",
+    "Email": "Kozak41@ukma.edu.ua",
+    "Birthday": "1992-05-27T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Gemini",
+    "ChineseSign": "Monkey",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Anton",
+    "Surname": "Didula",
+    "Email": "Didula78@kpi.edu.ua",
+    "Birthday": "2010-03-18T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Pisces",
+    "ChineseSign": "Tiger",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Katerhina",
+    "Surname": "Tar",
+    "Email": "Tar93@ucu.edu.ua",
+    "Birthday": "1995-09-08T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Virgo",
+    "ChineseSign": "Pig",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Victoria",
+    "Surname": "Kvych",
+    "Email": "Kvych90@kpi.edu.ua",
+    "Birthday": "2006-11-17T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Scorpio",
+    "ChineseSign": "Dog",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Victoria",
+    "Surname": "Vasylko",
+    "Email": "Vasylko60@kpi.edu.ua",
+    "Birthday": "2010-05-08T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Taurus",
+    "ChineseSign": "Tiger",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Anastasia",
+    "Surname": "Tar",
+    "Email": "Tar97@ukma.edu.ua",
+    "Birthday": "2008-02-08T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Aquarius",
+    "ChineseSign": "Rat",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Ihor",
+    "Surname": "Didula",
+    "Email": "Didula29@ukma.edu.ua",
+    "Birthday": "2015-07-06T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Cancer",
+    "ChineseSign": "Sheep",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Kolya",
+    "Surname": "Drozdenko",
+    "Email": "Drozdenko49@ucu.edu.ua",
+    "Birthday": "1982-09-10T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Virgo",
+    "ChineseSign": "Dog",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Katerhina",
+    "Surname": "Katrichenko",
+    "Email": "Katrichenko61@ukma.edu.ua",
+    "Birthday": "1993-07-10T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Cancer",
+    "ChineseSign": "Rooster",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Myhailo",
+    "Surname": "Drozdenko",
+    "Email": "Drozdenko94@lnu.edu.ua",
+    "Birthday": "1993-08-28T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Virgo",
+    "ChineseSign": "Rooster",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Victoria",
+    "Surname": "Mosiichuk",
+    "Email": "Mosiichuk17@lnu.edu.ua",
+    "Birthday": "2009-05-08T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Taurus",
+    "ChineseSign": "Ox",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Polina",
+    "Surname": "Stecko",
+    "Email": "Stecko52@lnu.edu.ua",
+    "Birthday": "2017-09-27T00:00:00",
+    "IsAdult": false,
+    "SunSign": "Libra",
+    "ChineseSign": "Rooster",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Katerhina",
+    "Surname": "Babych",
+    "Email": "Babych77@kpi.edu.ua",
+    "Birthday": "1982-04-19T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Aries",
+    "ChineseSign": "Dog",
+    "IsBirthday": false
+  },
+  {
+    "Name": "Dmytro",
+    "Surname": "Koval",
+    "Email": "Koval27@ucu.edu.ua",
+    "Birthday": "1984-10-01T00:00:00",
+    "IsAdult": true,
+    "SunSign": "Libra",
+    "ChineseSign": "Rat",
+    "IsBirthday": false
+  }
+]

@@ -1,0 +1,217 @@
+﻿@using Microsoft.AspNetCore.Mvc.Rendering
+@model List<Person>
+@{
+    ViewData["Title"] = "Persons";
+    Layout = "_Layout";
+
+    int personId = 1;
+}
+
+    <div class="text-center">
+        <h1>Persons:</h1>
+        <div class="d-flex justify-content-between">
+            @Html.ActionLink("Add Person", "New", "Users", null)
+        </div>
+    </div>
+
+<table class="table table-sm table-bordered table-hover table-responsive-lg">
+    <thead>
+        <tr>
+            <th class="text-center">
+                <div class="dropdown">
+                    <button type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Name
+                    </button>
+                    <div class="dropdown-menu">
+                        @using (Html.BeginForm("Process", "FilterOrder", new { id = 1 }, FormMethod.Post, null, new { @class = "px-4 py-3" }))
+                        {
+                            <div class="form-group">
+                                <label>Filter by name</label>
+                                <input type="text" name="Filter1" />
+                            </div>
+                            <div class="form-group">
+                                <label>Order</label>
+                                <select asp-items="new SelectList(PersonsLists.OrderList)"  name="Order1"></select>
+                            </div>
+                            <button type="submit" >Proceed</button>
+                        }
+                    </div>
+                </div>
+            </th>
+            <th class="text-center">
+                <div class="dropdown">
+                    <button  type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Surname
+                    </button>
+                    <div class="dropdown-menu">
+                        @using (Html.BeginForm("Process", "FilterOrder", new { id = 2 }, FormMethod.Post, null, new { @class = "px-4 py-3" }))
+                        {
+                            <div class="form-group">
+                                <label>Filter by surname</label>
+                                <input type="text" name="Filter2" />
+                            </div>
+                            <div class="form-group">
+                                <label>Order</label>
+                                <select asp-items="new SelectList(PersonsLists.OrderList)"  name="Order2"></select>
+                            </div>
+                            <button type="submit" >Proceed</button>
+                        }
+                    </div>
+                </div>
+            </th>
+            <th class="text-center">
+                <div class="dropdown">
+                    <button type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Email
+                    </button>
+                    <div class="dropdown-menu">
+                        @using (Html.BeginForm("Process", "FilterOrder", new { id = 3 }, FormMethod.Post, null, new { @class = "px-4 py-3" }))
+                        {
+                            <div class="form-group">
+                                <label>Filter by email</label>
+                                <input type="text" name="Filter3" />
+                            </div>
+                            <div class="form-group">
+                                <label>Order</label>
+                                <select asp-items="new SelectList(PersonsLists.OrderList)"  name="Order3"></select>
+                            </div>
+                            <button type="submit">Proceed</button>
+                        }
+                    </div>
+                </div>
+            </th>
+            <th class="text-center">
+                <div class="dropdown">
+                    <button type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Birthday
+                    </button>
+                    <div class="dropdown-menu">
+                        @using (Html.BeginForm("Process", "FilterOrder", new { id = 4 }, FormMethod.Post, null, new { @class = "px-4 py-3" }))
+                        {
+                            <div class="form-group">
+                                <label>Filter by birthday</label>
+                                <input type="date" name="Filter4" />
+                            </div>
+                            <div class="form-group">
+                                <label>Order</label>
+                                <select asp-items="new SelectList(PersonsLists.OrderList)"  name="Order4"></select>
+                            </div>
+                            <button type="submit" >Proceed</button>
+                        }
+                    </div>
+                </div>
+            </th>
+            <th class="text-center">
+                <div class="dropdown">
+                    <button type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Adult
+                    </button>
+                    <div class="dropdown-menu">
+                        @using (Html.BeginForm("Process", "FilterOrder", new { id = 5 }, FormMethod.Post, null, new { @class = "px-4 py-3" }))
+                        {
+                            <div class="form-group">
+                                <label>Filter</label>
+                                <select asp-items="new SelectList(PersonsLists.BoolList)"  name="Filter5"></select>
+                            </div>
+                            <div class="form-group">
+                                <label>Order</label>
+                                <select asp-items="new SelectList(PersonsLists.OrderList)"  name="Order5"></select>
+                            </div>
+                            <button type="submit" >Proceed</button>
+                        }
+                    </div>
+                </div>
+            </th>
+            <th class="text-center">
+                <div class="dropdown">
+                    <button type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Western Sign
+                    </button>
+                    <div class="dropdown-menu">
+                        @using (Html.BeginForm("Process", "FilterOrder", new { id = 6 }, FormMethod.Post, null, new { @class = "px-4 py-3" }))
+                        {
+                            <div class="form-group">
+                                <label>Filter</label>
+                                <select asp-items="new SelectList(PersonsLists.SunZodiacList)"  name="Filter6"></select>
+                            </div>
+                            <div class="form-group">
+                                <label>Order</label>
+                                <select asp-items="new SelectList(PersonsLists.OrderList)"  name="Order6"></select>
+                            </div>
+                            <button type="submit" >Proceed</button>
+                        }
+                    </div>
+                </div>
+            </th>
+            <th class="text-center">
+                <div class="dropdown">
+                    <button type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Chinese Sign
+                    </button>
+                    <div class="dropdown-menu">
+                        @using (Html.BeginForm("Process", "FilterOrder", new { id = 7 }, FormMethod.Post, null, new { @class = "px-4 py-3" }))
+                        {
+                            <div class="form-group">
+                                <label>Filter</label>
+                                <select asp-items="new SelectList(PersonsLists.ChineseZodiacList)"  name="Filter7"></select>
+                            </div>
+                            <div class="form-group">
+                                <label>Order</label>
+                                <select asp-items="new SelectList(PersonsLists.OrderList)"  name="Order7"></select>
+                            </div>
+                            <button type="submit" >Proceed</button>
+                        }
+                    </div>
+                </div>
+            </th>
+            <th class="text-center">
+                <div class="dropdown">
+                    <button type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Is Birthday
+                    </button>
+                    <div class="dropdown-menu">
+                        @using (Html.BeginForm("Process", "FilterOrder", new { id = 8 }, FormMethod.Post, null, new { @class = "px-4 py-3" }))
+                        {
+                            <div class="form-group">
+                                <label>Filter</label>
+                                <select asp-items="new SelectList(PersonsLists.BoolList)"  name="Filter8"></select>
+                            </div>
+                            <div class="form-group">
+                                <label>Order</label>
+                                <select asp-items="new SelectList(PersonsLists.OrderList)"  name="Order8"></select>
+                            </div>
+                            <button type="submit" >Proceed</button>
+                        }
+                    </div>
+                </div>
+            </th>
+            <th class="text-center">
+                <button type="button">
+                    Actions
+                </button>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var person in Model)
+        {
+            <tr>
+                <td class="text-center">@person.Name</td>
+                <td class="text-center">@person.Surname</td>
+                <td class="text-center">@person.Email</td>
+                <td class="text-center">@person.Birthday.ToShortDateString()</td>
+                <td class="text-center">@person.IsAdult</td>
+                <td class="text-center">@person.SunSign</td>
+                <td class="text-center">@person.ChineseSign</td>
+                <td class="text-center">@person.IsBirthday</td>
+                <td>
+                    <div class="btn-group-sm">
+                        @Html.ActionLink("Edit", "Edit", "Users", new { id = personId })
+                        @Html.ActionLink("Delete", "Delete", "Users", new { id = personId }, new { style = "color: red;" })
+                    </div>
+                </td>
+            </tr>
+            ++personId;
+        }
+    </tbody>
+</table>

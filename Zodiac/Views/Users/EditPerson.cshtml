@@ -1,0 +1,32 @@
+﻿@model Zodiac.Models.Person
+@{
+    ViewData["Title"] = "UserForm";
+    Layout = "_Layout";
+}
+
+    <div class="text-center">
+
+        <h1>@(Model == null ? "New Person" : "Edit Person")</h1>
+
+        @using (Html.BeginForm("Save", "Users"))
+        {
+            <div class="form-group">
+                @Html.LabelFor(p => p.Name)
+                @Html.TextBoxFor(p => p.Name)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(p => p.Surname)
+                @Html.TextBoxFor(p => p.Surname)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(p => p.Email)
+                @Html.TextBoxFor(p => p.Email)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(p => p.Birthday)
+                @Html.EditorFor(p => p.Birthday)
+            </div>
+            @Html.HiddenFor(p => p.Id)
+            <button type="submit" class="save-button">Save</button>
+        }
+    </div>
